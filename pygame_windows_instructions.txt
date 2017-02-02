@@ -1,0 +1,23 @@
+Hey Guys. For those of you having trouble with windows here are some tips:
+
+[For all downloads if you are unsure whether you have a 32-bit or 64-bit operating system just install the 32-bit version of whatever software you are attempting to install and it will work. (32-bit -> x86)]
+
+1) Download Python 2.7.13 - Use all default options. This should create a folder on your computer called "Python27" and it is located in the following path "C:\Python27".
+
+2) Download pyGame - Make sure when you're selecting where to install it you select the Python27 folder.
+
+3) Use any text editor and type "import pyGame" at the top of the file and save it. When selecting the location to save it, select the Python27 folder. In this example we will name it "Hello.py". (Make sure it has a .py extension)
+
+4) Open Command Prompt. Navigate to the Python27 folder. I think the following commands to do that starting from when you first open it are. - cd .. [Enter] - cd .. [Enter] - cd Python27
+
+5) Your command prompt should look like this now - C:\Python27>
+
+6) Run the following command - C:\Python27> python Hello.py
+
+7) If you get no errors. You're good! Message me (Michael Pabon) with questions otherwise.
+
+******************************************************** Normally you would want to run the python command in your command prompt OUTSIDE of the Python27 folder. To do this in windows we have to do something called adding python to the "PATH". Instructions on this are located here.
+
+http://stackoverflow.com/…/how-to-add-to-the-pythonpath-in-…
+
+If you do this then you can save your .py file anywhere and run the python command on it to run the script.
